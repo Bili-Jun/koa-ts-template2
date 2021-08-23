@@ -7,7 +7,7 @@ init koa-ts-template
 
 ```shell
 $ git clone https://github.com/Bili-Jun/koa-ts-template2.git
-$ cd koa-ts-template
+$ cd koa-ts-template2
 $ npm install
 # yarn
 ```
