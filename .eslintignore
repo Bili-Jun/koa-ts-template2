@@ -1,0 +1,5 @@
+node_modules/*
+build/
+babel.config.js
+.eslintrc.js
+bin/www

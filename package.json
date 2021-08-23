@@ -1,0 +1,67 @@
+{
+  "name": "koa-ts-template2",
+  "version": "0.0.1",
+  "description": "A typescript template of koa2",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=koa* NODE_ENV=development nodemon --watch 'src/**/*' -e ts --exec 'npm run lint && npm run ts-node -- --inspect --experimental-modules'",
+    "lint": "eslint . --ext .js,.ts",
+    "lint:fix": "eslint . --ext .js,.ts --fix",
+    "ts-node": "ts-node ./src/app.ts",
+    "tsc": "node_modules/typescript/bin/tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "server",
+    "koa",
+    "ts"
+  ],
+  "author": "bili-jun",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.3.2",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-connect": "^2.1.0",
+    "koa-convert": "^2.0.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-onerror": "^4.1.0",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "koa-views": "^7.0.1",
+    "log4js": "^6.3.0",
+    "vite": "^2.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/koa": "^2.13.4",
+    "@types/koa-bodyparser": "^4.3.3",
+    "@types/koa-json": "^2.0.20",
+    "@types/koa-logger": "^3.1.1",
+    "@types/koa-router": "^7.4.4",
+    "@types/koa-static": "^4.0.2",
+    "@types/koa-views": "^7.0.0",
+    "@types/node": "^16.7.1",
+    "@types/shelljs": "^0.8.9",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-promise": "^5.1.0",
+    "lint-staged": "^11.1.2",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  },
+  "engines": {
+    "node": ">=12.13.0"
+  }
+}

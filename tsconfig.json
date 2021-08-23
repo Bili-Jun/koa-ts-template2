@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "outDir": "./dist",
+    "sourceMap": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true
+  }
+}
