@@ -3,7 +3,7 @@ A typescript template of koa2.
 
 ## Usage
 
-init koa-ts-template
+init koa-ts-template2
 
 ```shell
 $ git clone https://github.com/Bili-Jun/koa-ts-template2.git
