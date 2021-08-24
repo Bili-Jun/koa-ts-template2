@@ -7,7 +7,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Jingwei Server",
+      "name": "Launch Koa2 Server",
       "skipFiles": [
         "<node_internals>/**"
       ],
