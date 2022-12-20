@@ -15,8 +15,10 @@
         "NODE_ENV": "development"
       },
       "runtimeArgs": [
+        "${workspaceFolder}/node_modules/ts-node/dist/bin.js",
+        "--files",
         "-r",
-        "ts-node/register"
+        "tsconfig-paths/register"
       ],
       "args": [
         "${workspaceFolder}/src/app.ts"
