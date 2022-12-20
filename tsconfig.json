@@ -6,6 +6,12 @@
     "sourceMap": false,
     "noImplicitAny": false,
     "removeComments": true,
-    "preserveConstEnums": true
+    "preserveConstEnums": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   }
 }

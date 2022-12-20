@@ -5,9 +5,9 @@ import * as logger from 'koa-logger';
 import * as koaStatic from 'koa-static';
 
 import * as log4j from 'log4js';
-import { index } from './routes/index';
-import { users } from './routes/users';
-import { loggerConfig } from './config';
+import { index } from '@/routes/index';
+import { users } from '@/routes/users';
+import { loggerConfig } from '@/config';
 
 const koaOnerror = require('koa-onerror');
 
